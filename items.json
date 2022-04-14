@@ -6,7 +6,6 @@
     "price": ,
     "category": [] ,
     //Seems redundant tbqh, can just use the mongodb ID but is less "proper"
-    "SKU": ,
     "imagePath": ,
     "quantity": ,
     //As a percentage eg 5 = 5%
