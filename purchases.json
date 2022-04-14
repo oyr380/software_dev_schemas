@@ -4,72 +4,26 @@
 {
     "_id": ,
     "customer": ObjectId(customerId) ,
-    "orderNumber" : ,
     "date" : ISODate() ,
     "dateProcessed": ISODate()
+    "cart": [
+        {
+            "item" : ,//item object
+            //"quantity" : , //keeping this here but it's unused atm
+        }
+    ]
     "shippingAddress": {
         "firstname" : ,
         "lastname" : ,
-        "email" : ,
         "city" : ,
         "state" : ,
         "zipcode" : ,
-        "country" : ,
     }
-    "itemList": [
-        {
-            "item" : ,
-            "quantity" : ,
-        }
-    ]
-
     "payment" : {
         "type" : ,
         "cardNumber" : ,
         "name" : ,
         "securityNum" : ,
-        "amount": ,
-    }
-
-}
-
-
-
-{
-    "_id": ,
-    "customer": customerobj ,
-    "orderNumber" : 1234567,
-    "date" : new Date(),
-    "dateProcessed": null
-    "shippingAddress": {
-        "firstname" : "Hoo" ,
-        "lastname" : "Kerrz",
-        "email" : "hookerrz@email.com",
-        "city" : "BigVille",
-        "zipcode" :  "12345",
-        "state" : "TX",
-        //May need to enforce digraph/trigraph? Maybe not who cares?
-        "country" : "US",
-        //May need to enforce digraph
-        //Fancy to enforce email matching but maybe easier to enforce server-side
-    }
-    "itemList": [
-        {
-            "item" : itemObj,
-            "quantity" : 2,
-        } ,
-        {
-            "item" : itemObj,
-            "quantity": 1
-        }
-    ]
-
-    "payment" : {
-        "type" : "AMEX",
-        //Formatting should be converted to int for uniformity
-        "cardNumber" : 5552221111,
-        "name" : "Hoo Kerrz",
-        "securityNum" : 1234,
-        "amount": 99.99,
+        "amountPaid": ,
     }
 }
