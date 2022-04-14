@@ -5,11 +5,10 @@
 {
     //_id is auto-generated but specificed for verbosity
     "_id": ,
-    "firstname": ,
-    "lastname": ,
+    "name": ,
     "email": ,
     "password": ,
-    "type": ,
+    "role": ,
     //Use Date() in MongoDB to update these
     "createDate": ,
     "lastLoginDate": ,
