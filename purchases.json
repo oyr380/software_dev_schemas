@@ -3,9 +3,9 @@
 
 {
     "_id": ,
-    "customer": ObjectId(customerId) ,
-    "date" : ISODate() ,
-    "dateProcessed": ISODate()
+    "customer": ObjectId(customerId) , //customer object
+    "date" : , //date object. Represents timestamp of checkout
+    "dateProcessed": , //date object. Represents timestamp checkout was processed
     "cart": [
         {
             "item" : ,//item object
@@ -13,17 +13,17 @@
         }
     ]
     "shippingAddress": {
-        "firstname" : ,
-        "lastname" : ,
-        "city" : ,
-        "state" : ,
-        "zipcode" : ,
+        "firstname" : , //String
+        "lastname" : , //String
+        "city" : , //String
+        "state" : , //String
+        "zipcode" : , //String
     }
     "payment" : {
-        "type" : ,
-        "cardNumber" : ,
-        "name" : ,
-        "securityNum" : ,
-        "amountPaid": ,
+        "type" : , //String
+        "cardNumber" : , //String
+        "name" : , //String
+        "securityNum" : , //String
+        "amountPaid": , //String
     }
 }

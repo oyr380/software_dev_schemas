@@ -5,11 +5,10 @@
 {
     //_id is auto-generated but specificed for verbosity
     "_id": ,
-    "name": ,
-    "email": ,
-    "password": ,
-    "role": ,
-    //Use Date() in MongoDB to update these
-    "createDate": ,
-    "lastLoginDate": ,
+    "name": ,  //String
+    "email": ,  //String
+    "password": ,  //String (generated from bcrypt)
+    "role": ,   //String Array [USER, ADMIN]
+    "createDate": , //Date object
+    "lastLoginDate": , //Date object
 }

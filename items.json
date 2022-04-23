@@ -2,30 +2,13 @@
 //Items schema
 {
     "_id": ,
-    "name": ,
-    "price": ,
-    "category": [] ,
-    //Seems redundant tbqh, can just use the mongodb ID but is less "proper"
-    "imagePath": ,
-    "quantity": ,
-    //As a percentage eg 5 = 5%
-    //optional but can't hurt
-    "discount": ,
-}
-
-
-
-//Item example
-
-{
-    "_id": ,
-    "name": "Air Max 98",
-    "price": 99.95,
-    "category": ["Fitness"] ,
-    //Seems redundant tbqh, can just use the mongodb ID but is less "proper"
-    "SKU": "NK-BLK-120-AM98" ,
-    "imagePath": "/path/to/file/",
-    "quantity": "50",
-    //No discount
-    "discount": 0,
+    "title": , //string
+    "image": , //String. path to image (url)
+    "price": , //float
+    "quantity": , //integer
+    "category": [] , //Array of Strings
+    "description": , //String
+    "discount": , //Integer applied as % (eg 5 = 5%)
+    "dateAdded": , //Date object
+    "dateModified" //Date Object
 }
